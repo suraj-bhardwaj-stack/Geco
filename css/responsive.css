@@ -247,6 +247,9 @@
 .desk-ft-mail{
     display: none;
 }
+.our-news .mail-box .respo-ft-mail{
+    display: block;
+}
 .our-news .mail-box button {
     width: 40px;
     height: 30px;
