@@ -4,7 +4,9 @@
         $("header nav").toggleClass("show");
       })
    });
-
+   function cross(x) {
+    x.classList.toggle("change");
+  }
 // Responsive Toggle End
 
 // Slider top js Start
