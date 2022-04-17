@@ -167,9 +167,6 @@
     justify-content: center;
     width: 100%;
 }
-.first-player img, .second-player img{
-    z-index: 999;
-}
 .first-player-details::before, .second-player-details::before{
     content: '';
     position: absolute;
@@ -182,7 +179,110 @@
     font-size: 15px;
 }
 /* live macth section end */
-
+/* released game section Start*/
+.game-sec {
+    background-color: #f7f7f7;
+    padding: 40px 20px 20px;
+}
+.game-sec .game-head h2{
+    font-size: 24px;
+}
+.game-sec .owl-two {
+    padding: 20px 0px 10px 0px;
+}
+.game-sec .owl-two .item, .game-sec .owl-two .item img {
+    height: 275px;
+    position: relative;
+}
+.article-head h2 {
+    font-size: 24px;
+    margin: 30px 0px 10px 0px;
+}
+.article-head p {
+    margin: 0px;
+    font-size: 12px;
+    padding: 10px;
+}
+.article-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.post-wrapper{
+    display: block;
+}
+/* footer start*/
+.our-news {
+    width: 90%;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.our-news .new-title {
+   margin: 15px 0px;
+}
+.our-news .new-title h2 {
+    font-size: 20px;
+}
+.our-news .mail-box {
+    margin: 0;
+    width: 85%;
+}
+.our-news .mail-box .input-box{
+    width: 88%;
+    height: 30px;
+    transform: skewX(338deg);
+}
+.desk-ft-mail{
+    display: none;
+}
+.our-news .mail-box button {
+    width: 40px;
+    height: 30px;
+    font-size: 13px;
+}
+.our-news .mail-box .respo-ft-mail svg {
+    margin: 0;
+}
+.footer-top {
+    background: url(../img/s_footer_bg.jpg);
+    background-size: cover;
+    height: auto;
+}
+.inner-sec {
+    width: 90%;
+    display: block;
+    padding-bottom: 25px;
+}
+.company-details .footer-logo img {
+    width: 105px;
+    margin-bottom: 0;
+}
+.company-details .company-des p, .company-details .company-add ul li a, .inner-sec .product-details .product-link ul li a, .company-terms .quick-links ul li a {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.inner-sec .product-details, .company-terms {
+    width: 100%;
+}
+.inner-sec .product-details .heading h2::after, .company-terms .heading h2:after, .follow-us .heading h2::after {
+    content: '';
+    margin: 15px 0px 15px 0px;
+}
+.company-details .company-add ul li, .inner-sec .product-details .product-link ul li, .company-terms .quick-links ul li {
+    margin-bottom: 16px;
+}
+.inner-rights-sec {
+    width: 100%;
+    justify-content: center;
+    height: 82px;
+    flex-direction: column;
+}
+.copy-rights-sec .reserv-rights p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.flame-one, .flame-two{
+    display: none;
+}
   }
 
 
@@ -349,9 +449,6 @@
     justify-content: center;
     width: 100%;
 }
-.first-player img, .second-player img{
-    z-index: 999;
-}
 .first-player-details::before, .second-player-details::before{
     content: '';
     position: absolute;
@@ -369,6 +466,107 @@
     font-size: 32px;
 }
 /* live macth section end */
+/* released game section Start*/
+.game-sec {
+    background-color: #f7f7f7;
+    padding: 40px 20px 20px;
+}
+.game-sec .game-head h2{
+    font-size: 24px;
+}
+.game-sec .owl-two {
+    padding: 20px 0px 10px 0px;
+}
+.game-sec .owl-two .item, .game-sec .owl-two .item img {
+    height: 275px;
+    position: relative;
+}
+.article-head h2 {
+    font-size: 24px;
+    margin: 30px 0px 10px 0px;
+}
+.article-head p {
+    margin: 0px;
+    font-size: 12px;
+    padding: 10px;
+}
+.article-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.post-wrapper{
+    display: block;
+}
+/* footer start*/
+.our-news {
+    width: 90%;
+    border-radius: 20px;
+}
+.our-news .new-title {
+   margin: 0px 20px;
+}
+.our-news .new-title h2 {
+    font-size: 20px;
+}
+.our-news .mail-box {
+    margin: 0;
+    width: 85%;
+}
+.our-news .mail-box .input-box{
+    width: 70%;
+    height: 30px;
+    transform: skewX(338deg);
+}
+.our-news .mail-box button {
+    width: 99px;
+    height: 30px;
+    font-size: 10px;
+    left: -20px;
+}
+.our-news .mail-box .respo-ft-mail{
+    display: none;
+}
+.footer-top {
+    background: url(../img/s_footer_bg.jpg);
+    background-size: cover;
+    height: auto;
+}
+.inner-sec {
+    width: 90%;
+    display: block;
+    padding-bottom: 25px;
+}
+.company-details .footer-logo img {
+    width: 105px;
+    margin-bottom: 0;
+}
+.company-details .company-des p, .company-details .company-add ul li a, .inner-sec .product-details .product-link ul li a, .company-terms .quick-links ul li a {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.inner-sec .product-details, .company-terms {
+    width: 100%;
+}
+.inner-sec .product-details .heading h2::after, .company-terms .heading h2:after, .follow-us .heading h2::after {
+    content: '';
+    margin: 15px 0px 15px 0px;
+}
+.company-details .company-add ul li, .inner-sec .product-details .product-link ul li, .company-terms .quick-links ul li {
+    margin-bottom: 16px;
+}
+.inner-rights-sec {
+    width: 100%;
+    justify-content: center;
+    height: 82px;
+    flex-direction: column;
+}
+.copy-rights-sec .reserv-rights p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.flame-one, .flame-two{
+    display: none;
+}
   }
 
   @media (min-width: 769px) and (max-width: 992.9px) {
@@ -479,15 +677,15 @@
     } 
 /* live watch start */
 .video-player .live-video video{
-    width: 90%;
-    height: 300px;
+    width: 80%;
+    height: 400px;
     object-fit: cover;
     }
 /* live watch end */
 /* live macth section start */
 .battle-sec{
     width: 100%;
-    margin: 40px auto 10px;
+    margin: 120px auto 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -557,11 +755,88 @@
 .first-player-details h3,.first-player-details h6{
     margin-left: 20px;
 }
+/* released game section Start*/
+.game-sec {
+    background-color: #f7f7f7;
+    padding: 40px 20px 20px;
+}
+.game-sec .game-head h2{
+    font-size: 24px;
+}
+.game-sec .owl-two {
+    padding: 20px 0px 10px 0px;
+}
+.game-sec .owl-two .item, .game-sec .owl-two .item img {
+    height: 275px;
+    position: relative;
+}
+.article-head h2 {
+    font-size: 24px;
+    margin: 30px 0px 10px 0px;
+}
+.article-head p {
+    margin: 0px;
+    font-size: 12px;
+    padding: 10px 0px 20px 0px;
+}
+.article-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+/* footer start*/
+.our-news {
+    width: 90%;
+    border-radius: 20px;
+}
+.our-news .new-title {
+   margin: 0px 20px;
+}
+.our-news .new-title h2 {
+    font-size: 20px;
+}
+.our-news .mail-box {
+    margin: 0;
+    width: 85%;
+}
+.our-news .mail-box .input-box{
+    width: 70%;
+    height: 40px;
+    transform: skewX(338deg);
+}
+.our-news .mail-box button {
+    width: 99px;
+    height: 40px;
+    font-size: 10px;
+    left: -40px;
+}
+
+.our-news .mail-box .respo-ft-mail{
+    display: none;
+}
+.inner-sec {
+    width: 96%;
+    padding: 76px 0px 30px;
+}
+.company-details .footer-logo img {
+    width: 105px;
+    margin-bottom: 20px;
+}
+.inner-sec .product-details, .company-terms {
+    width: 70%;
+}
+.footer-mail li input {
+    width: 149px;
+}
+.inner-rights-sec {
+    width: 88%;
+    height: 50px;
+}
+.flame-one, .flame-two{
+    display: none;
+}
   }
 
-
   @media (min-width: 993px) and (max-width: 1200px){
- 
     header::before{
         content: '';
         width: 25%;
@@ -647,6 +922,238 @@
     }
     .slide-info .slide-img img {
         width: 100%;
-    } 
+    }
+     /* slider responsive end */
+     /* live macth section start */
+.battle-sec{
+    width: 100%;
+    margin: 40px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.match-timing{
+    width: 40%;
+    position: static;
+}
+.match-timing h2{
+    font-size: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.match-timing .heading p{
+    top:0;
+    transform: translate(-50%, 0px);
+}
+.match-timing .time p{
+    font-size: 50px;
+}
+.first-player{
+    justify-content: start;
+
+}
+.first-player, .second-player{
+    width: 30%;
+}
+.first-player-details, .second-player-details{
+    position: relative;
+    height: 60px;
+    z-index: 2;
+}
+.first-player-details::before, .second-player-details::before{
+    content: '';
+    position: absolute;
+    background: var(--primary-color);
+    width: 140px;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: -60px;
+    transform: skewX(22deg);
+}
+.second-player-details::before{
+    width: 160px;
+    transform: skewX(338deg);
+    left: -10px;
+}
+.first-player-details h6, .second-player-details h6{
+    color: var(--white-color);
+    font-size: 12px;
+    font-family: var(--Secondry-font-family);
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.first-player-details h3, .second-player-details h3{
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: var(--Secondry-font-family);
+    margin-left: 0px;
+    font-weight: 800;
+}
+.first-player-details h3,.first-player-details h6{
+    margin-left: 20px;
+}
+/* live watch start */
+.video-player .live-video video{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+/* live watch End */
+/* live macth section start */
+.battle-sec{
+    width: 100%;
+    margin: 120px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.match-timing{
+    width: 40%;
+    position: static;
+}
+.match-timing h2{
+    font-size: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.match-timing .heading p{
+    top:0;
+    transform: translate(-50%, 0px);
+}
+.match-timing .time p{
+    font-size: 50px;
+}
+.first-player{
+    justify-content: start;
+
+}
+.first-player, .second-player{
+    width: 30%;
+}
+.first-player-details, .second-player-details{
+    position: relative;
+    height: 60px;
+    z-index: 2;
+}
+.first-player-details::before, .second-player-details::before{
+    content: '';
+    position: absolute;
+    background: var(--primary-color);
+    width: 140px;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: -60px;
+    transform: skewX(22deg);
+}
+.second-player-details::before{
+    width: 160px;
+    transform: skewX(338deg);
+    left: -10px;
+}
+.first-player-details h6, .second-player-details h6{
+    color: var(--white-color);
+    font-size: 12px;
+    font-family: var(--Secondry-font-family);
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.first-player-details h3, .second-player-details h3{
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: var(--Secondry-font-family);
+    margin-left: 0px;
+    font-weight: 800;
+}
+.first-player-details h3,.first-player-details h6{
+    margin-left: 20px;
+}
+/* released game section Start*/
+.game-sec {
+    background-color: #f7f7f7;
+    padding: 40px 20px 20px;
+}
+.game-sec .game-head h2{
+    font-size: 24px;
+}
+.game-sec .owl-two {
+    padding: 20px 0px 10px 0px;
+}
+.game-sec .owl-two .item, .game-sec .owl-two .item img {
+    height: 275px;
+    position: relative;
+}
+.article-head h2 {
+    font-size: 24px;
+    margin: 30px 0px 10px 0px;
+}
+.article-head p {
+    margin: 0px;
+    font-size: 12px;
+    padding: 10px 0px 20px 0px;
+}
+.article-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+/* footer start*/
+.our-news {
+    width: 90%;
+    border-radius: 70px;
+}
+.our-news .new-title {
+   margin: 0px 20px;
+}
+.our-news .new-title h2 {
+    font-size: 20px;
+}
+.our-news .mail-box {
+    margin: 0;
+    width: 85%;
+}
+.our-news .mail-box .input-box{
+    width: 80%;
+    height: 50px;
+    transform: skewX(338deg);
+}
+.our-news .mail-box button {
+    width: 120 px;
+    height: 50px;
+    font-size: 12px;
+    left: -40px;
+}
+.our-news .mail-box .respo-ft-mail{
+    display: none;
+}
+.inner-sec {
+    width: 96%;
+    padding: 76px 0px 30px;
+}
+.company-details .footer-logo img {
+    width: 105px;
+    margin-bottom: 20px;
+}
+.inner-sec .product-details, .company-terms {
+    width: 70%;
+}
+.footer-mail li input {
+    width: 149px;
+}
+.inner-rights-sec {
+    width: 88%;
+    height: 50px;
+}
+.flame-one, .flame-two{
+    display: none;
+}
   }
-  /* slider responsive end */
+ 
