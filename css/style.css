@@ -169,25 +169,30 @@ header nav ul li:nth-child(9) a{
 /* reponsive nav css Start*/
 .respo-menu{
     display: none;
+    border: 1px solid var(--white-color);
+    padding: 4px;
 }
 .respo-menu .one, .respo-menu .two, .respo-menu .three{
     width: 30px;
     height: 4px;
-    background-color: var(--black-color);
+    background-color: var(--white-color);
     margin: 4px;
     transition: all 0.5s ease-in-out;
+    
 }
 
 .change .one {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-8px, 5px);
+    transform: rotate(-45deg) translate(-8px, 5px);
+    border-radius: 4px;
   }
   
   .change .two {opacity: 0;}
   
   .change .three {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-6px, -4px);
+    transform: rotate(45deg) translate(-6px, -4px);
+    border-radius: 4px;
   }
 
 /* reponsive nav css end */
