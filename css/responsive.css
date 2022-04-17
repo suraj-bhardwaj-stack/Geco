@@ -14,7 +14,7 @@
     .respo-menu{
         display: block;
         position: absolute;
-        top: 15px;
+        top: 11px;
         right: 15px;
     }
     .logo {
@@ -25,9 +25,12 @@
         margin-left: 15px;
         width: 50%;
     }
-    .logo img{
-        position: static;
-        transform: initial;
+    .logo img {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translate(0%, -50%);
+        width: 100px;
     }
     header nav{
         background-color: var(--secondry-color);
@@ -309,7 +312,7 @@
     .respo-menu{
         display: block;
         position: absolute;
-        top: 15px;
+        top: 11px;
         right: 15px;
     }
     .logo {
